@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h2>Выберите метод фильтрации для: {{ current_file }}</h2>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul class="flashes">
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
+    <table class="nostyle"><tr class="nostyle">
+
+        <td class="nostyle"><form action="" method="post"><fieldset>
+            <legend>По количеству и типу сообщения</legend>
+            {{ form.hidden_tag() }}
+            {{ form.count.label }}{{ form.count(size=5) }}<br>
+            <span style="color: grey; font-size: small">
+                Введите целое число (0 = все логи)
+            </span><br>
+            {% for error in form.count.errors %}
+                <span style="color: red; font-size: x-small">{{ error }}</span>
+            {% endfor %}<br>
+            {{ form.mes_type.label }}{{ form.mes_type }}<br><br>
+            {{ form.submit }}
+        </fieldset></form></td>
+
+        <td class="nostyle"></td>
+
+        <td class="nostyle"><form action="" method="post"><fieldset>
+            <legend>По периоду времени и типу сообщения</legend>
+            {{ date_form.hidden_tag() }}
+            {{ date_form.date_start.label }}{{ date_form.date_start(size=15) }}
+            {{ date_form.date_end.label }}{{ date_form.date_end(size=15) }}<br>
+            <span style="color: grey; font-size: small">
+                Введите дату и время в виде: 2020-05-15 23:59:59
+            </span><br>
+            {% for error in date_form.date_start.errors %}
+                <span style="color: red; font-size: x-small">{{ error }}</span>
+            {% endfor %}
+            {% for error in date_form.date_end.errors %}
+                <span style="color: red; font-size: x-small">{{ error }}</span>
+            {% endfor %}<br>
+            {{ date_form.mes_type.label }}{{ date_form.mes_type }}<br><br>
+            {{ date_form.submit }}
+        </fieldset></form></td>
+
+    </tr></table>
+
+{% endblock %}

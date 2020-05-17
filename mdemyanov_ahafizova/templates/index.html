@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}Log Reader - Files{% endblock %}
+
+{% block content %}
+
+    <h2>Выберите лог-файл</h2>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul class="flashes">
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
+    <form action="" method="post">
+        {% for file in files %}
+            <input type="radio" name="test" value="{{ file }}">
+            {{ file }}<br>
+        {% endfor %}<br>
+        <button type="submit">Отправить</button>
+    </form>
+
+{% endblock %}

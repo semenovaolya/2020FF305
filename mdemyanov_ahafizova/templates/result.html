@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>{{ current_file }}</h2>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul class="flashes">
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
+    <form action="" method="post"><p><table>
+        <tr>
+            <th>☺</th>
+            <th>Timestamp</th>
+            <th>Message type</th>
+            <th>Source of message</th>
+            <th>Log message itself</th>
+        </tr>
+        {% for count in range(len_logs) %}
+        <tr>
+            <td align="center">
+                {{ count+1 }}<br>
+                <input type="checkbox" name="del" value="{{ logs[count][0] }}">
+            </td>
+            <td>{{ logs[count][1] }}</td>
+            <td>{{ logs[count][2] }}</td>
+            <td>{{ logs[count][3] }}</td>
+            <td>{{ logs[count][4] }}</td>
+        </tr>
+        {% endfor %}
+    </table></p><br>
+        <button type="submit">Удалить</button></form>
+
+{% endblock %}

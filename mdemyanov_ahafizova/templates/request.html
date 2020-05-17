@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block title %}Log Reader - Request{% endblock %}
+
+{% block content %}
+    <p>Hello! Your IP is {{ remote_addr }} and you are using: {{ user_agent }}</p>
+{% endblock %}

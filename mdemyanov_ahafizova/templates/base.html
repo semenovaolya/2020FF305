@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>{% block title %}Log Reader{% endblock %}</title>
+</head>
+<body>
+    <header class="head">
+        <a href="{{ url_for('index') }}">
+            <img src="{{ url_for('static', filename='home.png') }}" width="40" alt="Home">
+        </a>
+        <span style="font-size: 260%; margin-left: 1%; font-family: 'Caveat', cursive;">Log_Reader.py</span>
+        <span style="font-size: 80%; float: right;"><br>Developers:<br>Demyanov M.E. & Hafizova A.R.</span>
+    </header>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
