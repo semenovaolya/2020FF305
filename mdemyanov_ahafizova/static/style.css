@@ -1,0 +1,54 @@
+header {
+    margin: 5px 0px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: #77DDE7;
+}
+
+A:link, A:visited, A:active, A:hover {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+    padding: none;
+}
+
+h2 {
+    margin: 15px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px 10px;
+}
+
+table:not(.nostyle) {
+    width: 100%;
+}
+
+th:not(.nostyle), td:not(.nostyle) {
+    border: 1px solid;
+}
+
+table:not(.nostyle) th {
+    background: #E5E5E5;
+}
+
+table:not(.nostyle) tr:hover td {
+    background: #CFF3F6;
+}
+
+/*
+table:not(.nostyle) th {
+    background: #D5B4FF;
+}
+
+table:not(.nostyle) tr:hover td {
+    background: #DDCEF0;
+}
+*/
+
