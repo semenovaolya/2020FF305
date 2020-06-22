@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel='stylesheet' href="../static/style.css" type="text/css"/>
+
+<script type=text/javascript> $(function() { $("#mybutton").click(function (event) { $.getJSON('/download', { },
+  function(data) { }); return false; }); }); 
+  </script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<title>LogReader</title>
+</head>
+<body>
+<div id="wrap">
+  <div id="header">
+    <h1 id="logo">Log<span class="gray">reader</span></h1>
+  </div>
+  <div id="content-wrap">
+    <div id="sidebar" >
+      
+      <h2 class="clear">Settings</h2>
+      <ul class="sidemenu">
+        <form  method="post">
+          <li><a>Sort by time
+            <p><label><input name='timesort' type='radio' value='direct' id ='direct'  checked>direct</label></p>
+            <p><label><input name='timesort' type='radio' value='reverse' id='reverse' ></label>reverse</p>
+          </a></li>
+          <li><a >Search by message type
+              <p><label><input type="checkbox" name='typesort' value="Info" id='stat' > INFO</label></p>
+              <p><label><input type="checkbox" name='typesort' value="Warning" id='stat' >WARNING</label></p>
+              <p><label><input type="checkbox" name='typesort' value="Error" id='stat'>ERROR</label></p>
+              <p><label><input type="checkbox" name='typesort' value="Debug" id='6' >DEBUG</label></p>
+              <p><label><input type="checkbox" name='typesort' value="Fatal" id='7' >FATAL</label></p>
+              <p><label><input type="checkbox" name='typesort' value="Trace" id='8'>TRACE</label></p>
+              
+          </a></li>
+          <li><a >Search by time
+              <p><input type="date" name='time' value="from" id='9' onkeyup='saveValue(this);'></p>
+              <p><input type="date" name='time' value="to" id='10' onkeyup='saveValue(this);'></p>        
+          </a></li>
+         
+          <li>
+            <a> Search
+                <p>
+                    <input name="search_query" class="textbox" type="text" />
+                  </p>
+            </a>
+          </li>
+          <li>
+              <p><input id='mybutton' type='submit'value='submit'>
+              </p>
+          </li>
+        </form>
+      </ul>
+      
+    </div>
+    <div id="main"> <a name="TemplateInfo"></a>
+      <div class="box">
+        
+        {% include '%s' %html_file %}
+        
+      </div>
+      
+    </div>
+    <br />
+  </div>
+</div>
+
+</body>
+
+</script>
+</html>

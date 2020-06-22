@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" 
+     href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.4.0/min/dropzone.min.css"/>
+
+    <link rel="stylesheet" 
+     href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.4.0/min/basic.min.css"/>
+
+    <script type="application/javascript" 
+     src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.4.0/min/dropzone.min.js">
+    </script>
+    <link rel='stylesheet' href="../static/style.css" type="text/css"/>
+
+    <title>Log Reader</title>
+</head>
+<body>
+    
+    <div id="header">
+        <h1 id="logo">Log<span class="gray">reader</span></h1>
+    </div>
+    <form method="POST" action='/upload' class="dropzone dz-clickable" 
+        id="dropper" enctype="multipart/form-data" hre>
+    </form>
+    <div id='but'>
+    <p>
+        <a href="{{ url_for('download_file') }}"> <h1 id='bbb'>Download</h1></a>
+
+    </p> 
+    </div>   
+
+<script type="application/javascript">
+    Dropzone.options.dropper = {
+        paramName: 'file',
+        chunking: true,
+        forceChunking: true,
+        url: '/upload',
+        maxFilesize: 2049, // megabytes
+        chunkSize: 100000000, // bytes
+        maxFiles: 1
+    }
+</script>
+</body>
+</html>
