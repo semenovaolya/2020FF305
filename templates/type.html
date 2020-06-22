@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<p lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Type sort</title>
+</head>
+<body>
+    <h2>Выберите тип и количество логов</h2>
+    <form action="" method="post">
+        <p> Количество логов <input type="text" name="count" placeholder="10"></p>
+        <input name="type" type="radio" checked value="ALL"> ALL<br>
+        <input name="type" type="radio" value="Info"> Info<br>
+        <input name="type" type="radio" value="Warning"> Warning<br>
+        <input name="type" type="radio" value="Error"> Error
+        <p><button type="submit">Отфильтровать</button></p>
+    </form>
+    {% for i in result %}
+        <p>{{ i }}</p>
+    {% endfor %}
+</body>
+</html>

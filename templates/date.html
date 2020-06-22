@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<p lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Date sort</title>
+</head>
+<body>
+    <h2>Выберите дату в формате yyyy-mm-dd hh:mm:ss</h2>
+    <form action="" method="post">
+        <p><label for="sdate"> Начальное время</label> <input type="text" name="sdate" id="sdate"></p>
+        <p><label for="edate"> Конечное время</label> <input type="text" name="edate" id="edate"></p>
+        <p><button type="submit">Отфильтровать</button></p>
+    </form>
+    {% for i in result %}
+        <p>{{ i }}</p>
+    {% endfor %}
+</body>
+</html>
