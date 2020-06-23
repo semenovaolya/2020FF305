@@ -1,0 +1,364 @@
+﻿2020-02-15 08:54:12, Info                  DISM   DISM WIM Provider: PID=6092 TID=2328 [C:\] is not a WIM mount point. - CWimMountedImageInfo::Initialize
+2020-02-15 08:54:12, Info                  DISM   DISM Imaging Provider: PID=6092 TID=2328 The provider WimManager does not support CreateDismImage on C:\ - CGenericImagingManager::CreateDismImage
+2020-02-15 08:54:12, Info                  DISM   DISM Imaging Provider: PID=6092 TID=2328 No imaging provider supported CreateDismImage for this path - CGenericImagingManager::CreateDismImage
+2020-02-15 08:54:12, Info                  DISM   DISM Manager: PID=6092 TID=2328 physical location path: C:\ - CDISMManager::CreateImageSession
+2020-02-15 08:54:12, Info                  DISM   DISM Manager: PID=6092 TID=2328 Copying DISM from "C:\Windows\System32\Dism" - CDISMManager::CreateImageSessionFromLocation
+2020-02-15 08:54:19, Info                  DISM   DISM Manager: PID=6092 TID=2328 Successfully loaded the ImageSession at "C:\Windows\TEMP\358C7718-7E4F-4231-A885-AD8FB9B3DDF8" - CDISMManager::LoadRemoteImageSession
+2020-02-15 08:54:19, Info                  DISM   DISM Image Session: PID=2172 TID=4176 Instantiating the Provider Store. - CDISMImageSession::get_ProviderStore
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Initializing a provider store for the IMAGE session type. - CDISMProviderStore::Final_OnConnect
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Loading Provider from location C:\Windows\TEMP\358C7718-7E4F-4231-A885-AD8FB9B3DDF8\OSProvider.dll - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Connecting to the provider located at C:\Windows\TEMP\358C7718-7E4F-4231-A885-AD8FB9B3DDF8\OSProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2020-02-15 08:54:19, Info                  DISM   DISM OS Provider: PID=2172 TID=4176 Defaulting SystemPath to C:\ - CDISMOSServiceManager::Final_OnConnect
+2020-02-15 08:54:19, Info                  DISM   DISM OS Provider: PID=2172 TID=4176 Defaulting Windows folder to C:\Windows - CDISMOSServiceManager::Final_OnConnect
+2020-02-15 08:54:19, Info                  DISM   DISM OS Provider: PID=2172 TID=4176 Host OS verion is 6.3 - CDISMOSServiceManager::SetDllSearchPath
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Attempting to initialize the logger from the Image Session. - CDISMProviderStore::Final_OnConnect
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Loading Provider from location C:\Windows\TEMP\358C7718-7E4F-4231-A885-AD8FB9B3DDF8\LogProvider.dll - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Connecting to the provider located at C:\Windows\TEMP\358C7718-7E4F-4231-A885-AD8FB9B3DDF8\LogProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Loading Provider from location C:\Windows\TEMP\358C7718-7E4F-4231-A885-AD8FB9B3DDF8\PEProvider.dll - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:54:19, Warning               DISM   DISM Provider Store: PID=2172 TID=4176 Failed to Load the provider: C:\Windows\TEMP\358C7718-7E4F-4231-A885-AD8FB9B3DDF8\PEProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Failed to get and initialize the PE Provider.  Continuing by assuming that it is not a WinPE image. - CDISMProviderStore::Final_OnConnect
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Finished initializing the Provider Map. - CDISMProviderStore::Final_OnConnect
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Getting Provider DISMLogger - CDISMProviderStore::GetProvider
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:54:19, Info                  DISM   DISM Manager: PID=6092 TID=2328 Image session successfully loaded from the temporary location: C:\Windows\TEMP\358C7718-7E4F-4231-A885-AD8FB9B3DDF8 - CDISMManager::CreateImageSession
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Getting Provider OSServices - CDISMProviderStore::GetProvider
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:54:19, Info                  DISM   API: PID=6092 TID=2328 Target image information: OS Version=6.3.9600.19537, Image architecture=x86 - CDismCore::LogImageSessionDetails
+2020-02-15 08:54:19, Info                  DISM   API: PID=6092 TID=2800 Leave DismOpenSessionInternal - DismOpenSessionInternal
+2020-02-15 08:54:19, Info                  DISM   API: PID=6092 TID=2800 Session id is: 2 - DismOpenSessionInternal
+2020-02-15 08:54:19, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:54:19, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: oem22.inf - DismGetDriverInfoInternal
+2020-02-15 08:54:19, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:54:19, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:54:19, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:54:19, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Loading Provider from location C:\Windows\TEMP\358C7718-7E4F-4231-A885-AD8FB9B3DDF8\DmiProvider.dll - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:54:20, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Connecting to the provider located at C:\Windows\TEMP\358C7718-7E4F-4231-A885-AD8FB9B3DDF8\DmiProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2020-02-15 08:54:20, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2020-02-15 08:54:20, Info                  DISM   DISM OS Provider: PID=2172 TID=4176 Successfully loaded the hive. - CDISMOSServiceManager::DetermineBootDrive
+2020-02-15 08:54:20, Info                  DISM   DISM Driver Manager: PID=2172 TID=4176 Further logs for driver related operations can be found in the target operating system at %WINDIR%\inf\setupapi.offline.log - CDriverManager::Initialize
+2020-02-15 08:54:20, Error                 DISM   DISM Driver Manager: PID=2172 TID=4176 Error, file not found 'oem22.inf'. - CDriverManager::OpenPackageByFile(hr:0x80070002)
+2020-02-15 08:54:30, Warning               DISM   DISM Driver Manager: PID=2172 TID=4176 Could not get boot critical status for the driver class {4D36E972-E325-11CE-BFC1-08002BE10318} from driver store. Assuming that this is not boot critical. - CDriverPackage::InitBootCriticalFlag(hr:0x80070490)
+2020-02-15 08:54:30, Info                  DISM   DISM Driver Manager: PID=2172 TID=4176 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\rt630x86.inf_x86_fc7905a7d5ef93d5\rt630x86.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:54:32, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Getting Provider OSServices - CDISMProviderStore::GetProvider
+2020-02-15 08:54:32, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:54:55, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:54:56, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:54:56, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: C:\Windows\System32\DriverStore\FileRepository\rt630x86.inf_x86_fc7905a7d5ef93d5\rt630x86.inf - DismGetDriverInfoInternal
+2020-02-15 08:54:56, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:54:56, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:54:56, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:54:57, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:54:57, Info                  DISM   DISM Provider Store: PID=2172 TID=4176 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:55:02, Warning               DISM   DISM Driver Manager: PID=2172 TID=4176 Could not get boot critical status for the driver class {4D36E972-E325-11CE-BFC1-08002BE10318} from driver store. Assuming that this is not boot critical. - CDriverPackage::InitBootCriticalFlag(hr:0x80070490)
+2020-02-15 08:55:03, Info                  DISM   DISM Driver Manager: PID=2172 TID=4176 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\rt630x86.inf_x86_fc7905a7d5ef93d5\rt630x86.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:55:39, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:40, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:40, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:40, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:41, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:41, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:41, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:41, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:41, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: oem15.inf - DismGetDriverInfoInternal
+2020-02-15 08:55:41, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:55:41, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:55:41, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:55:41, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:55:41, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:55:41, Error                 DISM   DISM Driver Manager: PID=2172 TID=3888 Error, file not found 'oem15.inf'. - CDriverManager::OpenPackageByFile(hr:0x80070002)
+2020-02-15 08:55:42, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Driver C:\Windows\System32\DriverStore\FileRepository\valleyview2system.inf_x86_fc267c194e2a73c5\valleyview2system.inf is boot-critical. - CDriverPackage::FillInPackageDetails
+2020-02-15 08:55:42, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\valleyview2system.inf_x86_fc267c194e2a73c5\valleyview2system.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:55:43, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider OSServices - CDISMProviderStore::GetProvider
+2020-02-15 08:55:43, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:55:44, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:45, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:45, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: C:\Windows\System32\DriverStore\FileRepository\valleyview2system.inf_x86_fc267c194e2a73c5\valleyview2system.inf - DismGetDriverInfoInternal
+2020-02-15 08:55:45, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:55:45, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:55:45, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:55:45, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:55:45, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:55:46, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Driver C:\Windows\System32\DriverStore\FileRepository\valleyview2system.inf_x86_fc267c194e2a73c5\valleyview2system.inf is boot-critical. - CDriverPackage::FillInPackageDetails
+2020-02-15 08:55:46, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\valleyview2system.inf_x86_fc267c194e2a73c5\valleyview2system.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:55:48, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:48, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:48, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:48, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:48, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:48, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:48, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:48, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:48, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: oem11.inf - DismGetDriverInfoInternal
+2020-02-15 08:55:48, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:55:48, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:55:48, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:55:48, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:55:48, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:55:48, Error                 DISM   DISM Driver Manager: PID=2172 TID=3888 Error, file not found 'oem11.inf'. - CDriverManager::OpenPackageByFile(hr:0x80070002)
+2020-02-15 08:55:48, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Driver C:\Windows\System32\DriverStore\FileRepository\etdsmbus.inf_x86_999029f8ac6cd418\etdsmbus.inf is boot-critical. - CDriverPackage::FillInPackageDetails
+2020-02-15 08:55:48, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\etdsmbus.inf_x86_999029f8ac6cd418\etdsmbus.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:55:48, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider OSServices - CDISMProviderStore::GetProvider
+2020-02-15 08:55:48, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: C:\Windows\System32\DriverStore\FileRepository\etdsmbus.inf_x86_999029f8ac6cd418\etdsmbus.inf - DismGetDriverInfoInternal
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:55:49, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:55:49, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:55:49, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Driver C:\Windows\System32\DriverStore\FileRepository\etdsmbus.inf_x86_999029f8ac6cd418\etdsmbus.inf is boot-critical. - CDriverPackage::FillInPackageDetails
+2020-02-15 08:55:49, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\etdsmbus.inf_x86_999029f8ac6cd418\etdsmbus.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: oem4.inf - DismGetDriverInfoInternal
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:55:49, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:55:49, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:55:49, Error                 DISM   DISM Driver Manager: PID=2172 TID=3888 Error, file not found 'oem4.inf'. - CDriverManager::OpenPackageByFile(hr:0x80070002)
+2020-02-15 08:55:49, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Driver C:\Windows\System32\DriverStore\FileRepository\vlv2ahci.inf_x86_212f9f04f4959af5\vlv2ahci.inf is boot-critical. - CDriverPackage::FillInPackageDetails
+2020-02-15 08:55:49, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\vlv2ahci.inf_x86_212f9f04f4959af5\vlv2ahci.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:55:49, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider OSServices - CDISMProviderStore::GetProvider
+2020-02-15 08:55:49, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:55:49, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:50, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:50, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: C:\Windows\System32\DriverStore\FileRepository\vlv2ahci.inf_x86_212f9f04f4959af5\vlv2ahci.inf - DismGetDriverInfoInternal
+2020-02-15 08:55:50, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:55:50, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:55:50, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:55:50, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:55:50, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:55:50, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Driver C:\Windows\System32\DriverStore\FileRepository\vlv2ahci.inf_x86_212f9f04f4959af5\vlv2ahci.inf is boot-critical. - CDriverPackage::FillInPackageDetails
+2020-02-15 08:55:50, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\vlv2ahci.inf_x86_212f9f04f4959af5\vlv2ahci.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:55:50, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:50, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:50, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:50, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:50, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:50, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:50, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:50, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:50, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: oem23.inf - DismGetDriverInfoInternal
+2020-02-15 08:55:50, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:55:50, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:55:50, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:55:50, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:55:50, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:55:50, Error                 DISM   DISM Driver Manager: PID=2172 TID=3888 Error, file not found 'oem23.inf'. - CDriverManager::OpenPackageByFile(hr:0x80070002)
+2020-02-15 08:55:52, Warning               DISM   DISM Driver Manager: PID=2172 TID=3888 Could not get boot critical status for the driver class {4D36E972-E325-11CE-BFC1-08002BE10318} from driver store. Assuming that this is not boot critical. - CDriverPackage::InitBootCriticalFlag(hr:0x80070490)
+2020-02-15 08:55:52, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\netrtwlane.inf_x86_5d026425470d1bf8\netrtwlane.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:55:52, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider OSServices - CDISMProviderStore::GetProvider
+2020-02-15 08:55:52, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:55:53, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:53, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:53, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: C:\Windows\System32\DriverStore\FileRepository\netrtwlane.inf_x86_5d026425470d1bf8\netrtwlane.inf - DismGetDriverInfoInternal
+2020-02-15 08:55:53, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:55:53, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:55:53, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:55:53, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:55:53, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:55:54, Warning               DISM   DISM Driver Manager: PID=2172 TID=3888 Could not get boot critical status for the driver class {4D36E972-E325-11CE-BFC1-08002BE10318} from driver store. Assuming that this is not boot critical. - CDriverPackage::InitBootCriticalFlag(hr:0x80070490)
+2020-02-15 08:55:54, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\netrtwlane.inf_x86_5d026425470d1bf8\netrtwlane.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: oem14.inf - DismGetDriverInfoInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:55:55, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:55:55, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:55:55, Error                 DISM   DISM Driver Manager: PID=2172 TID=3888 Error, file not found 'oem14.inf'. - CDriverManager::OpenPackageByFile(hr:0x80070002)
+2020-02-15 08:55:55, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Driver C:\Windows\System32\DriverStore\FileRepository\valleyview2usb.inf_x86_cf91bf0f68199a87\valleyview2usb.inf is boot-critical. - CDriverPackage::FillInPackageDetails
+2020-02-15 08:55:55, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\valleyview2usb.inf_x86_cf91bf0f68199a87\valleyview2usb.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:55:55, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider OSServices - CDISMProviderStore::GetProvider
+2020-02-15 08:55:55, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: C:\Windows\System32\DriverStore\FileRepository\valleyview2usb.inf_x86_cf91bf0f68199a87\valleyview2usb.inf - DismGetDriverInfoInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:55:55, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:55:55, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:55:55, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Driver C:\Windows\System32\DriverStore\FileRepository\valleyview2usb.inf_x86_cf91bf0f68199a87\valleyview2usb.inf is boot-critical. - CDriverPackage::FillInPackageDetails
+2020-02-15 08:55:55, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\valleyview2usb.inf_x86_cf91bf0f68199a87\valleyview2usb.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: oem13.inf - DismGetDriverInfoInternal
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:55:55, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:55:55, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:55:55, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:55:55, Error                 DISM   DISM Driver Manager: PID=2172 TID=3888 Error, file not found 'oem13.inf'. - CDriverManager::OpenPackageByFile(hr:0x80070002)
+2020-02-15 08:55:56, Warning               DISM   DISM Driver Manager: PID=2172 TID=3888 Could not get boot critical status for the driver class {4D36E970-E325-11CE-BFC1-08002BE10318} from driver store. Assuming that this is not boot critical. - CDriverPackage::InitBootCriticalFlag(hr:0x80070490)
+2020-02-15 08:55:56, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\rtsp2stor.inf_x86_6ef19bcc4538f849\rtsp2stor.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:55:56, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider OSServices - CDISMProviderStore::GetProvider
+2020-02-15 08:55:56, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:55:59, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:56:00, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:56:00, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: C:\Windows\System32\DriverStore\FileRepository\rtsp2stor.inf_x86_6ef19bcc4538f849\rtsp2stor.inf - DismGetDriverInfoInternal
+2020-02-15 08:56:00, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:56:00, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:56:00, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:56:00, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:56:00, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:56:00, Warning               DISM   DISM Driver Manager: PID=2172 TID=3888 Could not get boot critical status for the driver class {4D36E970-E325-11CE-BFC1-08002BE10318} from driver store. Assuming that this is not boot critical. - CDriverPackage::InitBootCriticalFlag(hr:0x80070490)
+2020-02-15 08:56:00, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\rtsp2stor.inf_x86_6ef19bcc4538f849\rtsp2stor.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:56:02, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:56:02, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:02, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:02, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:02, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:02, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:02, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:02, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:56:02, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: oem18.inf - DismGetDriverInfoInternal
+2020-02-15 08:56:02, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:56:02, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:56:02, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:56:02, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:56:02, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:56:02, Error                 DISM   DISM Driver Manager: PID=2172 TID=3888 Error, file not found 'oem18.inf'. - CDriverManager::OpenPackageByFile(hr:0x80070002)
+2020-02-15 08:56:03, Warning               DISM   DISM Driver Manager: PID=2172 TID=3888 Could not get boot critical status for the driver class {4D36E968-E325-11CE-BFC1-08002BE10318} from driver store. Assuming that this is not boot critical. - CDriverPackage::InitBootCriticalFlag(hr:0x80070490)
+2020-02-15 08:56:03, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\igdlh.inf_x86_e9cdcabab4777f64\igdlh.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:56:03, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider OSServices - CDISMProviderStore::GetProvider
+2020-02-15 08:56:03, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:56:04, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:56:04, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:56:04, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: C:\Windows\System32\DriverStore\FileRepository\igdlh.inf_x86_e9cdcabab4777f64\igdlh.inf - DismGetDriverInfoInternal
+2020-02-15 08:56:04, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:56:04, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:56:04, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:56:04, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:56:04, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:56:04, Warning               DISM   DISM Driver Manager: PID=2172 TID=3888 Could not get boot critical status for the driver class {4D36E968-E325-11CE-BFC1-08002BE10318} from driver store. Assuming that this is not boot critical. - CDriverPackage::InitBootCriticalFlag(hr:0x80070490)
+2020-02-15 08:56:05, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\igdlh.inf_x86_e9cdcabab4777f64\igdlh.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:56:05, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:56:05, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:05, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:05, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:05, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:05, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:05, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:05, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:56:05, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: oem8.inf - DismGetDriverInfoInternal
+2020-02-15 08:56:05, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:56:05, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:56:05, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:56:05, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:56:05, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:56:05, Error                 DISM   DISM Driver Manager: PID=2172 TID=3888 Error, file not found 'oem8.inf'. - CDriverManager::OpenPackageByFile(hr:0x80070002)
+2020-02-15 08:56:11, Warning               DISM   DISM Driver Manager: PID=2172 TID=3888 Could not get boot critical status for the driver class {4D36E96C-E325-11CE-BFC1-08002BE10318} from driver store. Assuming that this is not boot critical. - CDriverPackage::InitBootCriticalFlag(hr:0x80070490)
+2020-02-15 08:56:11, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\intcdaud.inf_x86_c45d90304da5079a\intcdaud.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:56:11, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider OSServices - CDISMProviderStore::GetProvider
+2020-02-15 08:56:11, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:56:12, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:56:14, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:56:14, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: C:\Windows\System32\DriverStore\FileRepository\intcdaud.inf_x86_c45d90304da5079a\intcdaud.inf - DismGetDriverInfoInternal
+2020-02-15 08:56:14, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:56:14, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:56:14, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:56:14, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:56:14, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:56:16, Warning               DISM   DISM Driver Manager: PID=2172 TID=3888 Could not get boot critical status for the driver class {4D36E96C-E325-11CE-BFC1-08002BE10318} from driver store. Assuming that this is not boot critical. - CDriverPackage::InitBootCriticalFlag(hr:0x80070490)
+2020-02-15 08:56:16, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\intcdaud.inf_x86_c45d90304da5079a\intcdaud.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:56:17, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:56:17, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:17, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:17, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:17, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:17, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:17, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:17, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:56:17, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: oem9.inf - DismGetDriverInfoInternal
+2020-02-15 08:56:17, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:56:17, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:56:17, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:56:17, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:56:17, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:56:17, Error                 DISM   DISM Driver Manager: PID=2172 TID=3888 Error, file not found 'oem9.inf'. - CDriverManager::OpenPackageByFile(hr:0x80070002)
+2020-02-15 08:56:17, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Driver C:\Windows\System32\DriverStore\FileRepository\apfiltr.inf_x86_32458257db1670fd\apfiltr.inf is boot-critical. - CDriverPackage::FillInPackageDetails
+2020-02-15 08:56:17, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\apfiltr.inf_x86_32458257db1670fd\apfiltr.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:56:17, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider OSServices - CDISMProviderStore::GetProvider
+2020-02-15 08:56:17, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:56:17, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:56:17, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:56:17, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: C:\Windows\System32\DriverStore\FileRepository\apfiltr.inf_x86_32458257db1670fd\apfiltr.inf - DismGetDriverInfoInternal
+2020-02-15 08:56:17, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:56:17, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:56:17, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:56:17, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:56:17, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:56:17, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Driver C:\Windows\System32\DriverStore\FileRepository\apfiltr.inf_x86_32458257db1670fd\apfiltr.inf is boot-critical. - CDriverPackage::FillInPackageDetails
+2020-02-15 08:56:17, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\apfiltr.inf_x86_32458257db1670fd\apfiltr.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:56:18, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:56:18, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:18, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:18, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:18, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:18, Info                  DISM   API: PID=6092 TID=2800 Enter DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:18, Info                  DISM   API: PID=6092 TID=2800 Leave DismDeleteInternal - DismDeleteInternal
+2020-02-15 08:56:18, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:56:18, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: oem17.inf - DismGetDriverInfoInternal
+2020-02-15 08:56:18, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:56:18, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-15 08:56:18, Info                  DISM   API: PID=6092 TID=2328 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-15 08:56:18, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider DriverManager - CDISMProviderStore::GetProvider
+2020-02-15 08:56:18, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:56:18, Error                 DISM   DISM Driver Manager: PID=2172 TID=3888 Error, file not found 'oem17.inf'. - CDriverManager::OpenPackageByFile(hr:0x80070002)
+2020-02-15 08:56:18, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Driver C:\Windows\System32\DriverStore\FileRepository\acpivpc.inf_x86_3d595e4c0f0ab259\acpivpc.inf is boot-critical. - CDriverPackage::FillInPackageDetails
+2020-02-15 08:56:18, Info                  DISM   DISM Driver Manager: PID=2172 TID=3888 Signature status of driver C:\Windows\System32\DriverStore\FileRepository\acpivpc.inf_x86_3d595e4c0f0ab259\acpivpc.inf is: SIGNED - CDriverPackage::InitSignatureStatus
+2020-02-15 08:56:18, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Getting Provider OSServices - CDISMProviderStore::GetProvider
+2020-02-15 08:56:18, Info                  DISM   DISM Provider Store: PID=2172 TID=3888 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2020-02-15 08:56:18, Info                  DISM   API: PID=6092 TID=2800 Leave DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:56:18, Info                  DISM   API: PID=6092 TID=2800 Enter DismGetDriverInfoInternal - DismGetDriverInfoInternal
+2020-02-15 08:56:18, Info                  DISM   API: PID=6092 TID=2800 Input parameters: Session: 2, DriverPath: C:\Windows\System32\DriverStore\FileRepository\acpivpc.inf_x86_3d595e4c0f0ab259\acpivpc.inf - DismGetDriverInfoInternal
+2020-02-15 08:56:18, Info                  DISM   API: PID=6092 TID=2800 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-15 08:56:18, Info                  DISM   API: PID=6092 TID=2328 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-26 06:36:32, Info                  DISM   API: PID=5604 TID=4976 Leave CCommandThread::CommandThreadProcedureStub - CCommandThread::CommandThreadProcedureStub
+2020-02-26 06:36:33, Info                  DISM   API: PID=5604 TID=4836 Leave DismCloseSessionInternal - DismCloseSessionInternal
+2020-02-26 06:36:33, Info                  DISM   API: PID=5604 TID=4836 Enter DismShutdownInternal - DismShutdownInternal
+2020-02-26 06:36:33, Info                  DISM   API: PID=5604 TID=4836 GetReferenceCount hr: 0x0 - CSessionTable::RemoveSession
+2020-02-26 06:36:33, Info                  DISM   API: PID=5604 TID=4836 Refcount for DismSession= 1s 0 - CSessionTable::RemoveSession
+2020-02-26 06:36:33, Info                  DISM   API: PID=5604 TID=4836 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2020-02-26 06:36:33, Info                  DISM   API: PID=5604 TID=3416 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2020-02-26 06:36:33, Info                  DISM   API: PID=5604 TID=3416 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2020-02-26 06:36:33, Info                  DISM   API: PID=5604 TID=3416 ExecuteLoop: Cancel signaled - CCommandThread::ExecuteLoop
+2020-02-26 06:36:33, Info                  DISM   API: PID=5604 TID=3416 Leave CCommandThread::ExecuteLoop - CCommandThread::ExecuteLoop
+2020-02-26 06:36:34, Info                  DISM   PID=5604 TID=3416 Temporarily setting the scratch directory. This may be overridden by user later. - CDISMManager::FinalConstruct
+2020-02-26 06:36:34, Info                  DISM   PID=5604 TID=3416 Scratch directory set to 'C:\Windows\TEMP\'. - CDISMManager::put_ScratchDir
+2020-02-26 06:36:34, Info                  DISM   PID=5604 TID=3416 DismCore.dll version: 6.3.9600.19496 - CDISMManager::FinalConstruct
+2020-02-26 06:36:34, Info                  DISM   API: PID=5604 TID=3416 Leave CCommandThread::CommandThreadProcedureStub - CCommandThread::CommandThreadProcedureStub
+2020-02-26 06:36:34, Info                  DISM   API: PID=5604 TID=4836 Deleted g_internalDismSession - DismShutdownInternal
+2020-02-26 06:36:34, Info                  DISM   API: PID=5604 TID=4836 Shutdown SessionTable - DismShutdownInternal
+2020-02-26 06:36:34, Info                  DISM   API: PID=5604 TID=4836 Leave DismShutdownInternal - DismShutdownInternal
+2020-02-26 06:36:34, Info                  DISM   API: PID=5604 TID=4836 DismApi.dll:                                          - DismShutdownInternal
+2020-02-26 06:36:34, Info                  DISM   API: PID=5604 TID=4836 DismApi.dll: <----- Ending DismApi.dll session -----> - DismShutdownInternal
+2020-02-26 06:36:34, Info                  DISM   API: PID=5604 TID=4836 DismApi.dll:                                          - DismShutdownInternal
